@@ -1,0 +1,128 @@
+*{ box-sizing:border-box;}
+body{
+	background:silver;
+	padding:20px;
+	}
+header{
+	border:1px solid gray;
+	width:100%;
+	padding:20px;
+	background:white;
+	}
+nav{
+	border:1px solid gray;
+	width:50%;
+	padding:20px;
+	background:silver;
+	}
+main{
+	float:left;
+	width:70%;
+	margin-top:2%;
+	background:white;
+	margin-bottom:2%;
+	overflow:auto;
+	}
+section{
+	border:1px solid yellow;
+	margin-top:2%;
+	background:white;
+	}
+article{
+	border:1px solid blue;
+	}
+aside{
+	padding-left:2%;
+	margin-top:2%;
+	background:white;
+	}
+footer{
+	border:1px solid green;
+	width:100%;
+	clear:both;
+	padding:20px;
+	background:white;
+	text-align:center;
+	} 
+img {float:left;}
+a:link, a:visited {
+	color:yellow;
+	background:gray;
+	border:2px solid aqua;
+	border-radius:50%;
+}
+a:hover, a:active {
+	color:red;
+	background:black;
+	border:1px solid aqua;
+	border-radius:50%;
+}
+ul, li {display:block; list-style:none; margin:0;padding:5px;}
+ul li {display:inline; white-space: nowrap;}
+::selection{
+	color:orange;
+	background-color:yellow;
+	}
+::marker{
+	color:red;
+	}
+body {
+ background-color:blue;
+ }
+h2 {
+	border: 1px blue solid;
+	background-color:green;
+	color:black;
+	text-align:center;
+	padding:25px;
+	}
+h2:before {
+	content:"Julian";
+	background-color:pink;
+	color:black;
+	border:1px black solid;
+	font-size:15px;
+	border-radius:10px;
+	}
+h2:after {
+	content:"tuwim";
+	background-color:pink;
+	color:black;
+	border:1px black solid;
+	font-size:15px;
+	border-radius:10px;
+	}
+#ele:first-letter {
+	font-size:100px;
+	color:yellow;
+	border:2px green solid;
+	background-color:orange;
+	margin-right:5px;
+	float:inline-start;
+	}
+#ele:first-line {
+	font-size:20px;
+	text-decoration:underline;
+	color:yellow;
+	border:2px green solid;
+	background-color:orange;
+	margin-right:5px;
+	}
+
+#ele2:first-letter {
+	font-size:100px;
+	color:blue;
+	border:2px red solid;
+	background-color:orange;
+	margin-right:5px;
+	float:inline-start;
+	}
+#ele2:first-line {
+	font-size:20px;
+	text-decoration:underline;
+	color:yellow;
+	border:2px green solid;
+	background-color:orange;
+	margin-right:5px;
+	
+	}
